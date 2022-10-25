@@ -1,0 +1,39 @@
+#contenedor{
+    height: 600px;
+    
+}
+/*xs sm*/
+@media only screen and (max-width:600px){
+    #contenedor{
+        background-color: red;
+    }
+    h1{
+        color: green;
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+/*medianas*/
+@media only screen and (min-width: 600px){
+    #contenedor{
+        background-color: rgb(6, 254, 6);
+    }
+    h1{
+        color: rgba(255, 0, 0, 0.468);
+        font-size: 40px;
+        text-align: center;
+    }
+}
+/*largo*/
+
+@media only screen and (min-width: 992px){
+    #contenedor{
+        background-color: orange;
+    }
+    h1{
+        color: red;
+        font-size: 90px;
+        text-align: center;
+    }
+}
